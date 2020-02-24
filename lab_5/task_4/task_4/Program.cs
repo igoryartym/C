@@ -1,0 +1,22 @@
+﻿using System;
+namespace C_
+{
+    class Program
+    {
+        static int Recur(int n)
+        {
+            if (n == 0)
+                return 0;
+            else if (n == 1 ^ n == 2)
+                return 9;
+            return Recur(n - 1) + 4 * Recur(n - 3);
+        }
+        static void Main(string[] args)
+        {
+            Console.Write("Введіть число:");
+            int num = Convert.ToInt32(Console.ReadLine()), num_1 = num;
+            num = Recur(num);
+            Console.WriteLine("X({0})={1}", num_1, num);
+        }
+    }
+}
