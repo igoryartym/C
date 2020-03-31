@@ -1,0 +1,11 @@
+D:\C#\lab\lab_6\task4\task4\bin\Debug\netcoreapp3.1\task4.exe
+D:\C#\lab\lab_6\task4\task4\bin\Debug\netcoreapp3.1\task4.deps.json
+D:\C#\lab\lab_6\task4\task4\bin\Debug\netcoreapp3.1\task4.runtimeconfig.json
+D:\C#\lab\lab_6\task4\task4\bin\Debug\netcoreapp3.1\task4.runtimeconfig.dev.json
+D:\C#\lab\lab_6\task4\task4\bin\Debug\netcoreapp3.1\task4.dll
+D:\C#\lab\lab_6\task4\task4\bin\Debug\netcoreapp3.1\task4.pdb
+D:\C#\lab\lab_6\task4\task4\obj\Debug\netcoreapp3.1\task4.csprojAssemblyReference.cache
+D:\C#\lab\lab_6\task4\task4\obj\Debug\netcoreapp3.1\task4.AssemblyInfoInputs.cache
+D:\C#\lab\lab_6\task4\task4\obj\Debug\netcoreapp3.1\task4.AssemblyInfo.cs
+D:\C#\lab\lab_6\task4\task4\obj\Debug\netcoreapp3.1\task4.dll
+D:\C#\lab\lab_6\task4\task4\obj\Debug\netcoreapp3.1\task4.pdb

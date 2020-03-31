@@ -7,25 +7,37 @@ namespace C_
     {
         static void Main(string[] args)
         {
-            Console.Write("Введіть len: ");
+            Console.Write("Введiть len: ");
             int len = int.Parse(Console.ReadLine());
-            int[] array = new int[len];
+            int[] vect1 = new int[len];
             for (int i = 0; i < len; i++)
             {
-                Console.Write($"Введіть елем вектора-{i}:");
-                array[i] = int.Parse(Console.ReadLine());
+                Console.Write($"Введiть елем вектора-{i}:");
+                vect1[i] = int.Parse(Console.ReadLine());
             }
-            int[] array_1 = new int[len];
-            /*for(int k=0; k<len;k++){
-                 Console.Write($"Введіть елем вектора1-{k}:");
-                 array_1[k] = int.Parse(Console.ReadLine());}
-             for (int j=0;j<len;j++){
-                 if(j!=len-1){
-                     if (array[j]/array_1[j]!=array[j+1]/array_1[j+1])
-                         Console.WriteLine("Вектори не паралельні!");
-                         break;}
-                 else
-                     Console.WriteLine("Вектори паралельні!");}*/
+
+            int[] vect2 = new int[len];
+            for (int k = 0; k < len; k++)
+            {
+                Console.Write($"Введiть елем вектора1-{k}:");
+                vect2[k] = int.Parse(Console.ReadLine());
+            }
+
+
+            double divvect = vect1[0] / vect2[0];
+            bool isParallel = false;
+
+            for (int j = 1; j < len; j++)
+            {
+                if (Math.Abs(divvect - vect1[j] / vect2[j]) < double.Epsilon)
+                {
+                    isParallel = true;
+                    break;
+                }
+            }
+            Console.WriteLine($"Is parallel: {isParallel}");
+
+
         }
     }
 }
