@@ -6,6 +6,34 @@ namespace task1
     {
         public double radius1;
         public double radius2;
+        public double R1
+        {
+            get
+            {
+                return radius1;
+            }
+            set
+            {
+                if (value > 0) radius1 = value;
+                else
+                    throw new Exception("Lenght of side must be positive value");
+            }
+
+        }
+        public double R2
+        {
+            get
+            {
+                return radius2;
+            }
+            set
+            {
+                if (value > 0) radius2 = value;
+                else
+                    throw new Exception("Lenght of side must be positive value");
+            }
+
+        }
         public TCirle()
         {
             radius1 = 5;

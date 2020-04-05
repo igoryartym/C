@@ -7,16 +7,17 @@ namespace task1
     {
         static void Main(string[] args)
         {
-            string[] basadanix = { "паспортнi данi", "освiта", "спецiальнiсть", "посада", "оклад" };
-            List<string> basa = new List<string>();
-            foreach (string el in basadanix)
+            Dictionary<string, string> basadanix = new Dictionary<string, string>();
+            string[] basadan = { "паспортнi данi", "освiта", "спецiальнiсть", "посада", "оклад" };
+            foreach (string el in basadan)
             {
                 Console.Write($"{el} = ");
-                basa.Add(Convert.ToString(Console.ReadLine()));
+                basadanix[el] = Convert.ToString(Console.ReadLine());
             }
-            for (int i = 0; i < basa.Count; i++)
+            
+            foreach (KeyValuePair<string,string> el in basadanix)
             {
-                Console.Write("[{0}:{1}]",basadanix[i],basa[i]);
+                Console.WriteLine("Key = {0}, Value = {1}",el.Key,el.Value);
             }
         }
     }

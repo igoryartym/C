@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\lab\\lab_12\\tas1\\tas1\\tas1.csproj": {}
+    "D:\\C#\\lab\\lab_12\\task1\\tas1\\tas1.csproj": {}
   },
   "projects": {
-    "D:\\C#\\lab\\lab_12\\tas1\\tas1\\tas1.csproj": {
+    "D:\\C#\\lab\\lab_12\\task1\\tas1\\tas1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\lab\\lab_12\\tas1\\tas1\\tas1.csproj",
+        "projectUniqueName": "D:\\C#\\lab\\lab_12\\task1\\tas1\\tas1.csproj",
         "projectName": "tas1",
-        "projectPath": "D:\\C#\\lab\\lab_12\\tas1\\tas1\\tas1.csproj",
+        "projectPath": "D:\\C#\\lab\\lab_12\\task1\\tas1\\tas1.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\lab\\lab_12\\tas1\\tas1\\obj\\",
+        "outputPath": "D:\\C#\\lab\\lab_12\\task1\\tas1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
