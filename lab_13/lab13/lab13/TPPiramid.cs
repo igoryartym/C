@@ -26,7 +26,7 @@ namespace lab13
         }
         public double Volume()
         {
-            return Math.Round(Square() * rebro, 2);
+            return Math.Round((1/3)*Square() * rebro, 2);
         }
     }
 }

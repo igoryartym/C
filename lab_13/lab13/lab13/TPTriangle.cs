@@ -83,12 +83,11 @@ namespace lab13
         }
         public static double operator -(TPTriangle t)
         {
-            return Math.Abs(t.A - t.B);
+            return t.A - t.B;
         }
         public static TPTriangle operator *(TPTriangle t, double n)
         {
             return new TPTriangle(t.A * n, t.B * n);
         }
-
     }
 }

@@ -16,6 +16,11 @@ namespace task1
             this.radius1 = radius1;
             this.radius2 = radius2;
         }
+        public TCirle(TCirle c)
+        {
+            this.radius1 = c.radius1;
+            this.radius2 = c.radius2;
+        }
         public double Area()
         {
             return 2 * Math.PI * Math.Pow(radius1,2);

@@ -31,56 +31,61 @@ namespace task2
             else if (a200 > 0) return 200;
             else return 0;
         }
-        public ulong Maxsum()
+        public uint Maxsum()
         {
-            ulong a = Convert.ToUInt32(5 * a5 + 10 * a10 + 20 * a20 + 50 * a50 + a100 * 100 + 200 * a200);
+            uint a = Convert.ToUInt32(5 * a5 + 10 * a10 + 20 * a20 + 50 * a50 + a100 * 100 + 200 * a200);
             return a;
         }
         string s;
         int a= 0;
         public string Amount()
         {
-            if (sum < 5) return sum.ToString();
-            while (sum >5)
+            if (Maxsum() > sum)
             {
-                if (sum /200 > 0)
+                if (sum < 5) return sum.ToString();
+                while (sum > 5)
                 {
-                    a = sum / 200;
-                    sum -= 200*a;
-                    s += "200*"+a;
+                    if (sum / 200 > 0)
+                    {
+                        a = sum / 200;
+                        sum -= 200 * a;
+                        s += "200*" + a;
+                    }
+                    else if (sum / 100 > 0)
+                    {
+                        a = sum / 100;
+                        sum -= 100 * a;
+                        s += "+100*" + a;
+                    }
+                    else if (sum / 50 > 0)
+                    {
+                        a = sum / 50;
+                        sum -= 50 * a;
+                        s += "+50*" + a;
+                    }
+                    else if (sum / 20 > 0)
+                    {
+                        a = sum / 20;
+                        sum -= 20 * a;
+                        s += "+20*" + a;
+                    }
+                    else if (sum / 10 > 0)
+                    {
+                        a = sum / 10;
+                        sum -= 10 * a;
+                        s += "+10*" + a;
+                    }
+                    else
+                    {
+                        a = sum / 5;
+                        sum -= 5 * a;
+                        s += "+5*" + a;
+                    }
                 }
-                else if (sum / 100 > 0)
-                {
-                    a = sum / 100;
-                    sum -= 100*a;
-                    s += "+100*"+a;
-                }
-                else if (sum / 50 > 0)
-                {
-                    a = sum / 50;
-                    sum -= 50*a;                    
-                    s += "+50*"+a;
-                }
-                else if (sum / 20 > 0)
-                {
-                    a = sum / 20;
-                    sum -= 20*a;                    
-                    s += "+20*"+a;
-                }
-                else if (sum / 10 > 0)
-                {
-                    a = sum / 10;
-                    sum -= 10*a;                   
-                    s += "+10*"+a;
-                }
-                else
-                {
-                    a = sum / 5;
-                    sum -= 5 * a;                   
-                    s += "+5*"+a;
-                }
+                return s;
             }
-            return s;
+            else
+                return "impossible";
         }
     }
 }
