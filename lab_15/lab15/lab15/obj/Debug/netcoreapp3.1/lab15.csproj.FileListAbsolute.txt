@@ -1,0 +1,11 @@
+D:\C#\lab\lab_15\lab15\lab15\obj\Debug\netcoreapp3.1\lab15.csprojAssemblyReference.cache
+D:\C#\lab\lab_15\lab15\lab15\obj\Debug\netcoreapp3.1\lab15.AssemblyInfoInputs.cache
+D:\C#\lab\lab_15\lab15\lab15\obj\Debug\netcoreapp3.1\lab15.AssemblyInfo.cs
+D:\C#\lab\lab_15\lab15\lab15\bin\Debug\netcoreapp3.1\lab15.exe
+D:\C#\lab\lab_15\lab15\lab15\bin\Debug\netcoreapp3.1\lab15.deps.json
+D:\C#\lab\lab_15\lab15\lab15\bin\Debug\netcoreapp3.1\lab15.runtimeconfig.json
+D:\C#\lab\lab_15\lab15\lab15\bin\Debug\netcoreapp3.1\lab15.runtimeconfig.dev.json
+D:\C#\lab\lab_15\lab15\lab15\bin\Debug\netcoreapp3.1\lab15.dll
+D:\C#\lab\lab_15\lab15\lab15\bin\Debug\netcoreapp3.1\lab15.pdb
+D:\C#\lab\lab_15\lab15\lab15\obj\Debug\netcoreapp3.1\lab15.dll
+D:\C#\lab\lab_15\lab15\lab15\obj\Debug\netcoreapp3.1\lab15.pdb
